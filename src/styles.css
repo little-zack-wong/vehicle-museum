@@ -13,7 +13,7 @@ body,
 }
 
 body {
-  font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
   background: #fdf6e9;
   color: #3d3a36;
   overscroll-behavior: none;
@@ -22,8 +22,8 @@ body {
 h1,
 h2,
 .vehicle-card-name {
-  font-family: 'ZCOOL KuaiLe', 'Noto Sans SC', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 button {
