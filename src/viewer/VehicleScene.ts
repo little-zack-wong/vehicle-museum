@@ -161,7 +161,6 @@ export class VehicleScene {
     // 适配：根据包围盒缩放，并抬高到地面上
     const box = new THREE.Box3().setFromObject(model)
     const size = box.getSize(new THREE.Vector3())
-    const center = box.getCenter(new THREE.Vector3())
     const maxDim = Math.max(size.x, size.y, size.z)
     const scale = 3.2 / maxDim
     model.scale.setScalar(scale)
